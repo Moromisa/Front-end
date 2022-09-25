@@ -1,0 +1,71 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: salmon;
+}
+#login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: "times New Roman", serif;
+}
+.card {
+  background-color: pink;
+  padding: 40px;
+  border-radius: 1000px;
+  width: 290px;
+}
+.card-header {
+  padding-bottom: 50px;
+  opacity: 0.8;
+  color: lightblue;
+}
+.card-header::after {
+  content:"";
+  width: 70px;
+  background-color: black;
+  display: block;
+  margin-top: -17px;
+  margin-left:-5px;
+}
+
+.card-content label {
+  color: black;
+  font-size: 12px;
+  opacity: 0.8;
+}
+.card-content-area {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+}
+.card-content-area input {
+  margin-top: 10px;
+  padding: 0 15px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid darkslategray;
+  color: red;
+  margin: 1px;
+}
+
+.card-footer {
+  display: flex;
+  flex-direction: column;
+}
+.card-footer .submit {
+  width: 100%;
+  height: 40px;
+  background-color: black;
+  color: lightgreen;
+}
+.card-footer a {
+  text-align: center;
+  font-size: 12px;
+  opacity: 0.8px 0;
+  color: purple;
+  text-decoration: none;
+}
+
+
